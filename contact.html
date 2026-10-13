@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contact Storytelling Bern.">
+  <title>Contact — Storytelling Bern</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="logo" href="index.html"><span>Storytelling</span><strong>Bern</strong></a>
+  <nav aria-label="Main navigation">
+    <a href="index.html">Home</a><a href="events.html">Events</a><a href="about.html">About Storytelling</a><a class="active" href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<main class="page">
+
+  <div class="page-intro">
+    <p class="eyebrow">Get in touch</p>
+
+    <h1>Contact</h1>
+
+    <p class="lead">
+      Have a question about Storyslam? Want to tell a story,
+      collaborate, or get involved? Send us a message.
+    </p>
+  </div>
+
+
+  <div class="contact-layout">
+
+    <div class="contact-form-wrapper">
+
+      <form
+        action="https://formspree.io/f/xrpzrjvo"
+        method="POST"
+        class="contact-form"
+      >
+
+        <div class="form-field">
+          <label for="name">Your name</label>
+
+          <input
+            type="text"
+            id="name"
+            name="name"
+            autocomplete="name"
+            required
+          >
+        </div>
+
+
+        <div class="form-field">
+          <label for="email">Your email</label>
+
+          <input
+            type="email"
+            id="email"
+            name="email"
+            autocomplete="email"
+            required
+          >
+        </div>
+
+
+        <div class="form-field">
+          <label for="message">Message</label>
+
+          <textarea
+            id="message"
+            name="message"
+            rows="8"
+            required
+          ></textarea>
+        </div>
+
+
+        <!-- Optional: subject of the email you receive -->
+        <input
+          type="hidden"
+          name="_subject"
+          value="New message from Storytelling Bern"
+        >
+
+
+        <button type="submit" class="button">
+          Send message →
+        </button>
+
+      </form>
+
+    </div>
+
+
+    <div class="contact-note">
+
+      <p class="eyebrow">Storytelling Bern</p>
+
+      <p>
+        Whether you have a story to tell, a question about an upcoming
+        Storyslam, or simply want to say hello, we'd love to hear from you.
+      </p>
+
+    </div>
+
+  </div>
+
+</main>
+<footer><span>© 2026 Storytelling Bern</span><span>Bern, Switzerland</span></footer>
+</body>
+</html>
